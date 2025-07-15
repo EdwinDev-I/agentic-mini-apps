@@ -1,0 +1,155 @@
+body{
+  font-family: arial;
+  font-weight: bold;
+ height: 800px;
+ margin: 0px;
+ padding-top: 80px;
+ background-color: black;
+}
+
+.yaki-header {
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+}
+
+.yaki-honner-logo{
+  width: 100px;
+  margin-top: 8px;
+}
+.link-texts {
+  display: inline-block;
+  padding: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.web-header {
+  font-size: 15px;
+  color: rgb(124, 122, 122);
+}
+
+.startup-head {
+  width: 70px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(231, 128, 2);
+  padding-left: 5px;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+p{
+  color: white;
+  font-weight: 100;
+}
+.link-get {
+  text-decoration: none;
+}
+.link-get-started {
+  font-size: 12px;
+  margin-left: 4px;
+  color: rgb(139, 21, 139);
+  text-decoration: none;
+}
+
+.image-divs{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.div-for-page{
+ border-style: solid;
+ border-radius: 20px;
+ border-width: 1px;
+ margin: 10px;
+ background-color: rgb(20, 20, 20);
+}
+
+.page-para{
+  font-size: 32px;
+  font-weight: bold;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 0px;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 80px;
+  color: white;
+ 
+}
+
+.image1,
+.image2,
+.image3,
+.image4{
+  /*margin-top: 2800px;*/
+  width: auto;
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+.image5 {
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.color-yellow {
+  color: rgb(231, 128, 2);
+}
+
+.social-App-link1 {
+  color: white;
+  font-weight: 100;
+  margin: 0px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-App-link2 {
+  color: white;
+  font-weight: 100;
+  margin: 0px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.social-App-link1:hover {
+  color: rgb(231, 128, 2);
+  text-decoration: underline;
+}
+.social-App-link2:hover {
+  color: rgb(231, 128, 2);
+  text-decoration: underline;
+}
+
+.last-texts {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:90px;
+}

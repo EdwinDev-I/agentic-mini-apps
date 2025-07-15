@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+ 
+  font-family: arial;
+}
+
+div {
+  color: white;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+}
+@media (max-width: 600) {
+  .main-div {
+   flex-direction: column;
+  }
+ }
+
+.login-div1 {
+  background-color: rgb(2, 16, 22);
+  width: 550px;
+  height: 600px;
+  padding-left: 100px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-top: 45px;
+}
+
+.login-div2 {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nostr-image {
+  width: 80px;
+  border-radius: 60px;
+  margin-top: 90px;
+  margin-left: 240px;
+  margin-bottom: 30px;
+}
+
+.wel-come {
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 200px;
+  margin-bottom: 20px;
+}
+
+.options {
+  color: rgb(196, 195, 195);
+  font-size: 15px;
+  margin-left: 125px;
+}
+
+.envelope-solid,
+.lock-solid,
+.eye-solid{
+  width: 15px;
+  cursor: pointer;
+}
+
+.email-text-input,
+.password-text-input {
+  width: 320px;
+  border-radius: 6px;
+  border-style: solid ;
+  border: none;
+  border-color: white;
+  background-color: rgb(65, 64, 64);
+  height: 30px;
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 35px;
+}
+
+.messages {
+ margin-left: 100px;
+}
+
+.password-text-input:focus,
+.email-text-input:focus {
+  outline: 1px solid white;
+}
+.email-text-input::-webkit-input-placeholder {
+  color: white;
+}
+.password-text-input::-webkit-input-placeholder {
+  color: white;
+}
+
+.relative-1 {
+  position: relative;
+  margin-left: 100px;
+}
+.relative-1 .email-text-input {
+  margin-top: 40px;
+}
+.relative-1 .password-text-input {
+  margin-top: 5px;
+}
+
+.absolute-1 {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  margin-top: 40px;
+}
+.absolute-01 {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  margin-top: 5px;
+}
+.absolute-2 {
+  position: absolute;
+  top: 10px;
+  left: 323px;
+  margin-top: 5px;
+}
+
+.div-for-RF {
+  margin-left: 140px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(196, 195, 195);
+}
+.reminder {
+  width: 24px;
+  margin-left: -45px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.forgot-class {
+  margin-left: 90px;
+  color: white;
+}
+.forgot-link {
+ color: white;
+}
+
+.login-class {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  width: 166px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  padding-left: 156px;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 95px;
+}
+.login-class:hover {
+  background-color: rgb(233, 232, 232);
+}
+
+.division {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 700px;
+  margin-left: -75px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.center-text {
+  margin-top: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.link-G-A-divs {
+  display: flex;
+  margin-left: 92px;
+}
+
+.google-div,
+.apple-div {
+  background-color:black;
+  width: 118px;
+  padding: 6px 18px;
+  padding-left: 25px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  cursor: pointer;
+}
+.apple-div {
+ margin-left: 40px;
+}
+
+.google-image,
+.apple-image {
+  background-color: black;
+  width: 18px;
+}
+.google-text,
+.apple-text {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.link-to-signup{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 148px;
+  margin-bottom: 10px;
+}
+.sign-up-link {
+  color: white;
+}

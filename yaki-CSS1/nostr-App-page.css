@@ -1,0 +1,410 @@
+body {
+  font-family: arial;
+  padding-top: 70px;
+  height: 3000px;
+  padding-left: 100px;
+  background-color: black;
+}
+
+.header-div {
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  flex-wrap: nowrap;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: rgb(179, 82, 179);
+}
+
+.header-left-section {
+  display: flex;
+  margin-right: 20px;
+  height: 40px;
+}
+
+.nostr-icon {
+  width: 65px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 40px;
+}
+
+.head-2left{
+  margin-left: 10px;
+ margin-top: -15px;
+}
+
+.user-name {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 1px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: purple;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80px;
+  text-overflow: ellipsis;
+}
+
+.global-text-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.indicator {
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.global-icon {
+  width: 24px;
+  margin-top: -10px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 2px 2px;
+}
+
+.notifi-set-icon {
+  margin-top: 20px;
+  margin-left: 250px;
+  white-space: nowrap;
+}
+
+.for-notification{
+  position: fixed;
+}
+
+.setting-icon,
+.notifications-icon{
+  margin-right: 10px;
+  margin-top: -10px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  cursor: pointer;
+}
+.notifications-icon{
+  position: absolute;
+  top: -28px;
+  right: -85px;
+}
+
+.notification-Num {
+  position: absolute;
+  font-size: 10px;
+  top: -38px;
+  right: -75px;
+  padding: 2px 5px;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+}
+
+
+.channel-picture {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.logout-div {
+  display: flex;
+  color: rgb(201, 19, 19);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 5px;
+  margin-right: 20px;
+  margin-top: 5px;
+  flex-wrap: nowrap;
+  border-style: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 2px;
+  border-top-width: 2px;
+  border-radius: 8px;
+}
+.logout-div-link {
+  text-decoration: none;
+}
+.logout-div div {
+  white-space: nowrap;
+}
+.logout-div img {
+ margin-top: 2px;
+ margin-left: 5px;
+ width: 18px;
+ background-color: rgb(241, 73, 73);
+ border-radius: 20px;
+ white-space: nowrap;
+}
+
+
+.side-bar-div {
+  background-color: rgb(179, 82, 179);
+  position: fixed;
+  top: 65px;
+  left: 0px;
+  bottom: 0px;
+  width: 100px;
+}
+.new-side-bar {
+  background-color: rgb(179, 82, 179);
+  position: fixed;
+  top: 65px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  border-top-style: solid; 
+  border-top-color: rgb(231, 229, 229);
+  border-top-width: 1px;
+}
+
+.hamburger-menu {
+  width: 18px;
+  margin-left: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.cancel-text {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  padding: 1px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.cancel-text:hover {
+  background-color: rgb(250, 240, 240);
+  color: red;
+  transition: 0.05ms;
+}
+
+.side-bar-div p {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.side-bar-middle {
+  background-color: white;
+  width: 60px;
+  padding-left: 7px;
+  padding-right: 3px;
+  padding-top: 4px;
+  padding-bottom: 33px;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  bottom: 10px;
+  height: 550px;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.new-side-bar-middle {
+  background-color: white;
+  width: 260px;
+  padding-left: 5px;
+  padding-right: 3px;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  bottom: 10px;
+  height: 600px;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.down-section,
+.middle-section,
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+.middle-section,
+.top-section {
+  margin-bottom: 0px;
+}
+
+.down-section img,
+.middle-section img,
+.top-section img{
+ margin-top: 12px;
+ transition: tranform 0.3s ease;
+ box-sizing: border-box;
+ cursor: pointer;
+}
+
+.icons-flex {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-bottom: 2px;
+  width: 200px;
+  cursor: pointer;
+}
+.icons-flex div {
+  font-size: 12px;
+  margin-top: 18px;
+  margin-left: 25px;
+  color: black;
+}
+.icons-flex:hover {
+  border-color: rgb(207, 206, 206);
+}
+
+.top-section img:hover,
+.middle-section img:hover,
+.down-section img:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 4px;
+  border-radius: 20px;
+  transform: scale(1.02);
+}
+
+
+.down-section p,
+.middle-section p,
+.top-section p {
+  margin-left:-10px;
+  margin-top: 8px;
+  color: black;
+}
+
+.down-section-icon,
+.middle-section-icon,
+.top-section-icon {
+  width: 22px;
+}
+.top-section {
+  margin-top: 20px;
+}
+
+.crypto-coin-divs {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  gap: 25px;
+  flex-wrap: nowrap;
+  height: auto;
+  max-width: 150%;
+}
+@media (max-width: 600) {
+  .crypto-coin-divs {
+   flex-direction: column;
+  }
+ }
+
+.crypto-coins {
+  background-color: rgb(163, 14, 163);
+  flex: 1;
+  height: 130px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+}
+.crypto-coins:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: skyblue;
+}
+
+.div1-in-coin-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bitcoin-icon,
+.ethereum-icon,
+.solana-icon,
+.BNB-icon {
+  width: 55px;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+.ethereum-icon,
+.solana-icon,
+.BNB-icon {
+  border-radius: 60px;
+}
+
+.coin-name {
+  margin-top: 25px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.Bitcoin,
+.Ethrium,
+.solana,
+.BNB {
+  color: white;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.div2-in-coin-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.coin-price {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.coin-rate {
+  margin-right: 18px;
+  margin-top: 3px;
+  color: white;
+}
